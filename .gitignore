@@ -1,0 +1,19 @@
+### 📁 Conteúdo 2: `.gitignore`
+
+Crie um arquivo chamado **`.gitignore`** na raiz da sua pasta local com as instruções abaixo para evitar o envio de arquivos de logs, senhas temporárias ou pastas do sistema:
+
+```gitignore
+# Arquivos de log e temporários do sistema
+*.log
+*.tmp
+*.bak
+
+# Arquivos de configuração pessoal do VSCode/PowerShell
+.vscode/
+.history/
+
+# Arquivos temporários do PowerShell
+*.psmdcp
+
+# (Opcional) Descomente a linha abaixo se NÃO quiser subir o executável .exe
+# bin/*.exe
